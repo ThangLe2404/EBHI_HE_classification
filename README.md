@@ -4,7 +4,6 @@ This repository contains code for our study:
 "Deep Learning-Driven Subtype Classification of Colorectal Cancer Using Histopathology Images for Personalized Medicine"
 
 doi: https://doi.org/10.1101/2024.12.12.628270
-# Pipeline
 
 
 # Data Preparation
