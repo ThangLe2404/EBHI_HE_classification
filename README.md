@@ -109,6 +109,12 @@ weight_paths = {
 
 ```
 
+Install [pytorch gradcam](https://github.com/jacobgil/pytorch-grad-cam) library
+
+```
+pip install grad-cam
+```
+
 Then run the evaluation or gradcam
 
 ```
@@ -117,6 +123,17 @@ or
 python Gradcam.py
 ```
 
+Note: change model_name and weight_path variable in Gradcam.py file 
 
 # Data Preparation
 In our study, we use [EBHI-Seg](https://www.kaggle.com/datasets/lavensrivastava/ebhi-seg) dataset, contains 5,170 H&E-stained images annotated across 6 CRC subtypes.
+
+# Data augmentation 
+
+Please modify these variables to your local paths
+
+```
+raw_dataset_path = '/content/drive/MyDrive/EBHI-SEG'
+dataset_path = '/content/drive/MyDrive/EBHI-SEG/dataset'
+augment_dataset_path = './'
+```
